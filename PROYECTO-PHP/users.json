@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "firstname": "Augusto",
+        "lastname": "Mauro",
+        "email1": "amtnet@hotmail.com",
+        "email2": "",
+        "password": "$2y$10$rzalq6lBwhFwV6dMxjbm1evIZ.Ux5LkNPSA973kE8iJ2yyp25B60K",
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "state": "Choose...",
+        "zip": "",
+        "user": "amtnet",
+        "avatar": "uploads\/cff4cd1bfc3c1661150193eb3fb388c5.png"
+    },
+    {
+        "id": 1,
+        "firstname": "Ignacio",
+        "lastname": "Fillol",
+        "email1": "nachfillol@gmail.com",
+        "email2": "",
+        "password": "$2y$10$pKIkZHxb5pcb1Lu5EkBFNu.ayzGjLDbN4\/Mu2zxtsmDDrHC0jcb6W",
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "state": "Choose...",
+        "zip": "",
+        "user": "nachfillol",
+        "avatar": "uploads\/3043aa4bc591e97675eead88d7621d08.png"
+    },
+    {
+        "id": 2,
+        "firstname": "Nicolas",
+        "lastname": "Diaz",
+        "email1": "nico@diaz.com",
+        "email2": "",
+        "password": "$2y$10$EJ.fvz.3goASXZZKArm08OuAsMHALxlD4eHfRCr8h8rcIpAkTmq.G",
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "state": "Choose...",
+        "zip": "",
+        "user": "",
+        "avatar": null
+    }
+]

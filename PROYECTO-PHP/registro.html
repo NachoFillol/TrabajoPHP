@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> OLD SCHOOL STORE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+  <div class="container" id="registro">
+
+    <header>
+      <section class="barra-inicio">
+        <img src="img/logo.png" alt="Old School Store" id="logo">
+        <nav>
+          <ul>
+            <li><img class="isDisabled" src="img/avatar/account-100.png" alt="avatar" id="avatar"></li>
+            <li><a class="isDisabled" href="perfilUs.html">Mi Perfil</a></li>
+            <li><a class="isDisabled" href="#">Mis Compras<i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            <li><a href="login.html">Abrir Cuenta</a></li>
+            <li><a href="registro.html">Crear Cuenta</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="categorias-inicio">
+        <nav>
+          <ul>
+            <li><a href="contactUs.html">Contactanos</a></li>
+            <li><a href="#">Lo mas vendido</a></li>
+            <li><a href="#">Proximos lanzamientos</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Categorias</a></li>
+          </ul>
+        </nav>
+        <nav class="navbar">
+          <form class="form-inline" action="" method="get">
+            <input class="form-control mr-sm-2" name="search" type="search" placeholder="Search" aria-label="Search">
+            <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Search</button>
+          </form>
+        </nav>
+      </section>
+    </header>
+
+    <div class="form-register">
+      <form action="index.html" class="formulario" method="post">
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputFName">Nombre :</label>
+            <input type="text" name="fname" id="fname" class="form-control" placeholder="Nombre" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputLName">Apellido :</label>
+            <input type="text" name="lname" id="lname" class="form-control" placeholder="Apellido" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail1">Email Principal :</label>
+            <input type="email" name="email1" id="email1" class="form-control" placeholder="Email" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail2">Email Alternativo :</label>
+            <input type="email" name="email2" id="email2" class="form-control" placeholder="Email Alternativo">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword">Password :</label>
+            <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword_Confirmation">Confirmacion Password :</label>
+            <input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Confirmar Password" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress1">Direccion :</label>
+          <input type="text" name="address1" id="address1" class="form-control" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Direccion 2 :</label>
+          <input type="text" name="address2" id="address2" class="form-control" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Ciudad :</label>
+            <input type="text" name="city" id="city" class="form-control">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Estado :</label>
+            <select name="state" id="state" class="form-control" required>
+              <option selected>Choose...</option>
+              <option value="Buenos Aires">Buenos Aires</option>
+              <option value="Capital Federal">Capital Federal</option>
+              <option value="Catamarca">Catamarca</option>
+              <option value="Chaco">Chaco</option>
+              <option value="Chubut">Chubut</option>
+              <option value="Cordoba">Córdoba</option>
+              <option value="Corrientes">Corrientes</option>
+              <option value="Entre Rios">Entre Ríos</option>
+              <option value="Formosa">Formosa</option>
+              <option value="Jujuy">Jujuy</option>
+              <option value="La Pampa">La Pampa</option>
+              <option value="La Rioja">La Rioja</option>
+              <option value="Mendoza">Mendoza</option>
+              <option value="Misiones">Misiones</option>
+              <option value="Neuquen">Neuquén</option>
+              <option value="Rio Negro">Río Negro</option>
+              <option value="Salta">Salta</option>
+              <option value="San Juan">San Juan</option>
+              <option value="San Luis">San Luis</option>
+              <option value="Santa Cruz">Santa Cruz</option>
+              <option value="Santa Fe">Santa Fé</option>
+              <option value="Santiago del Estero">Santiago del Estero</option>
+              <option value="Tierra del Fuego">Tierra del Fuego</option>
+              <option value="Tucuman">Tucumán</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">C.P. :</label>
+            <input type="text" name="zip" id="zip" class="form-control">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputUser">Usuario :</label>
+            <input type="text" name="user" id="user" class="form-control">
+          </div>
+          <div class="form-group col-md-6" id="avatar-file">
+            <label for="">Subi tu Avatar :</label>
+            <input type="file" name="avatar" accept=".jpg,.jpeg,.png,">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="remember" id="remember">
+            <label class="form-check-label" for="gridCheck">
+              <i>Recordarme</i>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="accept" id="accept">
+            <label class="form-check-label" for="gridCheck">
+              <i>Acepto las condiciones y términos</i>
+            </label>
+          </div>
+        </div>
+        <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
+        <div class="register-boton">
+          <input type="image" src="img/img.register/PRESSSTAR.png" alt="press start" class="form-btn">
+        </div>
+
+      </form>
+    </div>
+
+
+    <footer>
+
+      <div class="left-footer">
+        <!-- Sin contenido, para dividir el footer en 3 -->
+      </div>
+
+      <div class="center-footer">
+
+        <div class="social-area">
+          <a class="facebook" href="https://www.facebook.com/" rel="nofollow" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a class="twitter" href="https://www.twitter.com/" rel="nofollow" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a class="instagram" href="https://www.instagram.com/" rel="nofollow" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <div class="derechos">
+          <a href="index.html"> oldschoolstore.com.ar </a>
+          <p>©2019 Todos los derechos reservados. </p>
+        </div>
+
+      </div>
+
+      <div class="right-footer">
+        <a href="index.html"> <i class="fas fa-arrow-circle-up"></i> </a>
+      </div>
+
+    </footer>
+
+  </div>
+
+<!-- Scripts Java -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</body>
+</html>
